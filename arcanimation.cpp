@@ -1,6 +1,7 @@
 #include "arcanimation.h"
 #include <assert.h>
 #include <QtCore/qmath.h>
+//试试能不能加一段话 测试git
 
 ArcAnimation::ArcAnimation(QObject *target, const QByteArray &prop)
     : QPropertyAnimation(target, prop)
