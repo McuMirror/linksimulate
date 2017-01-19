@@ -4,8 +4,8 @@
 #include <QFile>
 #include <QTextStream>
 #include <QFileDialog>
-//再试试这个
 
+//去掉了上面一行！
 CalculationResultsDialog::CalculationResultsDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::CalculationResultsDialog)
